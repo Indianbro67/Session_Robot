@@ -5,8 +5,8 @@ load_dotenv()
 
 API_ID = os.getenv("API_ID", "26670684").strip()
 API_HASH = os.getenv("API_HASH", "60592bded0f25a9633a8133601f2c779").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6157850456:AAECSQKBOrjcmF_mI9ngnltvsHqjV7TBOEk").strip()
-MUST_JOIN = os.getenv("MUST_JOIN", "@test94509")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6317945060:AAEh-QjW4E4IKs6Wox90P92I26OEScJRY9Y").strip()
+MUST_JOIN = os.getenv("MUST_JOIN", "adult_updates")
 
 if not API_ID:
     print("No API_ID found. Exiting...")
